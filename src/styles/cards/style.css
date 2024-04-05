@@ -1,0 +1,73 @@
+.cards{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 2%;
+    height: 100%;
+}
+
+.info-center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo-circle{
+    background: linear-gradient(180deg, rgba(188,121,237,1) 0%, rgba(116,51,164,1) 49%, rgba(54,4,92,1) 100%);    
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo{
+    width: 10vw;
+    height: 10vw;
+    background-image: url("../../assets/photo.jpg");
+    border-radius: 50%;
+    background-size: 100%;
+    background-position-y: center;
+}
+
+.occupation{
+    color: #924FC4;
+}
+
+.list-references{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.col-references{
+    margin-bottom: 2%;
+}
+
+.cards-references{
+    width: 300px;
+    margin-right: 5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-references i{
+    font-size: 2rem;
+    color: #924FC4;
+
+}
+
+.contact{
+    margin-top: 3% !important;
+}
+
+.cards-education{
+    padding: 7%;
+    text-align: center;
+}
+
+.experince-card{
+    margin-bottom: 5%;
+}

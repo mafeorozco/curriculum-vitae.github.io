@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&family=Belanosima:wght@400;600;700&family=Dosis:wght@600&display=swap');
+
+.title{
+    display: flex;
+    flex-direction: row;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black !important;
+    margin-bottom: 2%;
+}
+
+.div-icon{
+    width: 50px;
+    height: 50px;
+    color: #924FC4;
+    border: 2px solid #924FC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 0.5%;
+    font-size: 1.8rem;
+}

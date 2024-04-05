@@ -1,0 +1,67 @@
+.terminal{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.circulo1,.circulo2,.circulo3{
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 100%;
+    margin-right: 2%;
+}
+
+.circulo1{
+    background-color: #F94E4E;
+}
+
+.circulo2{
+    background-color: #F9F94E;
+}
+
+.circulo3{
+    background-color: #98F94E;
+}
+
+.text-terminal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text-yellow{
+    color:#F9F94E;
+}
+
+.terminal p{
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap; 
+    animation: typing 2s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+    
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
